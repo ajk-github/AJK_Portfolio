@@ -1,0 +1,73 @@
+{
+  "ascii": [
+    " █████╗ ██████╗ █████╗  ██╗  ██╗██╗            ██╗ █████╗ ██╗     ███████╗███████╗██╗       ██╗  ██╗██╗  ██╗ █████╗ ███╗   ██╗",
+    "██╔══██╗██╔══██╗██╔══██╗██║  ██║██║            ██║██╔══██╗██║     ██╔════╝██╔════╝██║       ██║ ██╔╝██║  ██║██╔══██╗███║   ██║",
+    "███████║███████║██║  ██║██║  ██║██║            ██║███████║██║     █████╗  █████╗  ██║       █████╔╝ ███████║███████║██╔██╗ ██║",
+    "██╔══██║██╔══██║██║  ██║██║  ██║██║      ██    ██║██╔══██║██║     ██╔══╝  ██╔══╝  ██║       ██╔═██╗ ██╔══██║██╔══██║██║╚██╗██║",
+    "██║  ██║██████╔╝██████╔╝ █████╔╝███████╗  ╚█████╔╝██║  ██║███████╗███████╗███████╗███████╗  ██║  ██╗██║  ██║██║  ██║██║ ╚████║",
+    "╚═╝  ╚═╝ ╚════╝  ╚════╝   ╚═══╝ ╚══════╝   ╚════╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝  ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝"
+],
+
+  "title": "AJK Portfolio",
+  "username": "visitor",
+  "hostname": "AJKshell",
+  "password": "12345",
+  "social": {
+    "email": "suf.khan2000@email.com",
+    "github": "https://github.com/ajk-github",
+    "linkedin": "https://www.linkedin.com/in/abdul-jaleel-khan/"
+  },
+  "aboutGreeting": "Hi stranger. Welcome to my Portfolio.",
+  "cvUrl": "res/CV.pdf",
+
+    "games": [
+      {
+        "name": "Pacman",
+        "url": "res/pacman.html",
+        "width": "550",
+        "height": "500"
+      }
+    ],
+  
+
+  "projects": [
+    [
+      "CG Calculator",
+      "Coordiante Geometry Calculator",
+      "https://www.cgcalculator.com"
+    ],
+    [
+      "AJKShell",
+      "Terminal styled Portfolio.",
+      "https://"
+    ],
+    [
+      "Drum Kit",
+      "Basic Drumkit website",
+      "https://ajk-github.github.io/drumkit/"
+    ]
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
