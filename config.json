@@ -18,12 +18,12 @@
     "linkedin": "https://www.linkedin.com/in/abdul-jaleel-khan/"
   },
   "aboutGreeting": "Hi stranger. Welcome to my Portfolio.",
-  "cvUrl": "./res/CV.pdf",
+  "cvUrl": "/CV.pdf",
 
     "games": [
       {
         "name": "Pacman",
-        "url": "res/pacman.html",
+        "url": "/pacman.html",
         "width": "550",
         "height": "500"
       }
