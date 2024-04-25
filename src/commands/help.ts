@@ -17,7 +17,11 @@ const helpObj = {
     ],
     [
       "'pacman'",
-      "play pacman"
+      "play Pacman"
+    ],
+    [
+      "'tetris'",
+      "play Tetris"
     ],
     [
       "'downloadcv'",
