@@ -26,6 +26,12 @@
         "url": "/pacman.html",
         "width": "550",
         "height": "500"
+      },
+      {
+        "name": "Tetris",
+        "url": "/tetris.html",
+        "width": "550",
+        "height": "550"
       }
     ],
   
