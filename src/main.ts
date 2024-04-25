@@ -5,6 +5,7 @@ import { ABOUT } from "./commands/about"
 import { DEFAULT } from "./commands/default";
 import { PROJECTS } from "./commands/projects";
 import { PACMAN } from "./commands/pacman";
+import { TETRIS } from "./commands/tetris";
 import { DOWNLOADCV } from "./commands/downloadcv";
 import { createWhoami } from "./commands/whoami";
 
@@ -30,7 +31,7 @@ const PRE_USER = document.getElementById("pre-user");
 const HOST = document.getElementById("host");
 const USER = document.getElementById("user");
 const PROMPT = document.getElementById("prompt");
-const COMMANDS = ["help", "about", "projects", "whoami", "pacman","downloadcv", "banner", "clear"];
+const COMMANDS = ["help", "about", "projects", "whoami", "pacman","tetris","downloadcv", "banner", "clear"];
 const HISTORY : string[] = [];
 const SUDO_PASSWORD = command.password;
 
@@ -270,6 +271,14 @@ function commandHandler(input : string) {
         break;
       }
       writeLines(PACMAN); // This should output the iframe embedding the game.
+      break;
+
+      case 'tetris':
+      if(bareMode) {
+        writeLines(["I do not want you to break tetris", "<br>"]);
+        break;
+      }
+      writeLines(TETRIS); // This should output the iframe embedding the game.
       break;
 
 
