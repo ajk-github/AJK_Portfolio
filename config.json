@@ -18,7 +18,7 @@
     "linkedin": "https://www.linkedin.com/in/abdul-jaleel-khan/"
   },
   "aboutGreeting": "Hi stranger. Welcome to my Portfolio.",
-  "cvUrl": "res/CV.pdf",
+  "cvUrl": "./res/CV.pdf",
 
     "games": [
       {
