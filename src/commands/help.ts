@@ -13,19 +13,19 @@ const helpObj = {
       "A perplexing question."
     ],
     ["'sudo'",
-      "Play Secret Games"
+      "Play Secret Games."
     ],
     [
       "'pacman'",
-      "play Pacman"
+      "play Pacman."
     ],
     [
       "'tetris'",
-      "play Tetris"
+      "play Tetris."
     ],
     [
       "'downloadcv'",
-      "Download my CV"
+      "Download my CV."
     ],
     ["'banner'",
       "Display the banner."
