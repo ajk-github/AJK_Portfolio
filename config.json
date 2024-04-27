@@ -32,6 +32,12 @@
         "url": "/tetris.html",
         "width": "550",
         "height": "550"
+      },
+      {
+        "name": "Mario",
+        "url": "/Secret-Game1/index.html",
+        "width": "1400",
+        "height": "560"
       }
     ],
   
