@@ -6,6 +6,7 @@ import { DEFAULT } from "./commands/default";
 import { PROJECTS } from "./commands/projects";
 import { PACMAN } from "./commands/pacman";
 import { TETRIS } from "./commands/tetris";
+import { MARIO } from "./commands/mario";
 import { DOWNLOADCV } from "./commands/downloadcv";
 import { createWhoami } from "./commands/whoami";
 
@@ -281,6 +282,19 @@ function commandHandler(input : string) {
       writeLines(TETRIS); // This should output the iframe embedding the game.
       break;
 
+      case 'mario':
+        if(bareMode) {
+          writeLines(["I do not want you to break mario", "<br>"]);
+          break;
+        }
+        if(isSudo){
+          writeLines(MARIO); // This should output the iframe embedding the game.
+          break;
+          } else {
+            writeLines(["Permission not granted.", "<br>"]);
+          }
+          break;
+
 
       case 'downloadcv':
         if(bareMode) {
@@ -354,7 +368,7 @@ function passwordHandler() {
 
   if (PASSWORD_INPUT.value === SUDO_PASSWORD) {
     if (!mutWriteLines || !mutWriteLines.parentNode) return
-    writeLines(["<br>", "PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", "<br>"])
+    writeLines(["<br>", "PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", "Try <span class='command'>'mario'</span>", "<br>"])
     revertPasswordChanges();
     isSudo = true;
     return
