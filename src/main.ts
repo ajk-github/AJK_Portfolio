@@ -7,6 +7,8 @@ import { PROJECTS } from "./commands/projects";
 import { PACMAN } from "./commands/pacman";
 import { TETRIS } from "./commands/tetris";
 import { MARIO } from "./commands/mario";
+import { STREETFIGHTER } from "./commands/streetfighter";
+import { PRINCE } from "./commands/prince";
 import { DOWNLOADCV } from "./commands/downloadcv";
 import { createWhoami } from "./commands/whoami";
 
@@ -274,6 +276,32 @@ function commandHandler(input : string) {
       writeLines(PACMAN); // This should output the iframe embedding the game.
       break;
 
+      case 'prince':
+      if(bareMode) {
+        writeLines(["I do not want you to break prince of persia", "<br>"]);
+        break;
+      }
+      if(isSudo){
+        writeLines(PRINCE); // This should output the iframe embedding the game.
+        break;
+        } else {
+          writeLines(["Permission not granted.", "<br>"]);
+        }
+        break;
+
+      case 'streetfighter':
+      if(bareMode) {
+        writeLines(["I do not want you to break streetfighter", "<br>"]);
+        break;
+      }
+      if(isSudo){
+        writeLines(STREETFIGHTER); // This should output the iframe embedding the game.
+        break;
+        } else {
+          writeLines(["Permission not granted.", "<br>"]);
+        }
+        break;
+
       case 'tetris':
       if(bareMode) {
         writeLines(["I do not want you to break tetris", "<br>"]);
@@ -368,7 +396,7 @@ function passwordHandler() {
 
   if (PASSWORD_INPUT.value === SUDO_PASSWORD) {
     if (!mutWriteLines || !mutWriteLines.parentNode) return
-    writeLines(["<br>", "PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", "Try <span class='command'>'mario'</span>", "<br>"])
+    writeLines(["<br>", "PERMISSION GRANTED.", "Try <span class='command'>'rm -rf'</span>", "Try <span class='command'>'mario'</span>","Try <span class='command'>'streetfighter'</span>", "Try <span class='command'>'prince'</span>","<br>"])
     revertPasswordChanges();
     isSudo = true;
     return
