@@ -1,0 +1,15 @@
+#main {
+    text-align: center;
+    font-family: "Lucida Console", monospace;
+}
+
+body {
+    color: #0C0623; 
+    background-color: #0C0623;
+    overflow-y: hidden;
+}
+
+ul {
+list-style-type: none;
+
+}
