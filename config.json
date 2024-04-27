@@ -38,6 +38,18 @@
         "url": "/Secret-Game1/index.html",
         "width": "1400",
         "height": "560"
+      },
+      {
+        "name": "Street-Fighter",
+        "url": "/StreetFighter-master/index.html",
+        "width": "1400",
+        "height": "560"
+      },
+      {
+        "name": "Prince of Persia",
+        "url": "/Secret-Game3/index.html", 
+        "width": "1400",
+        "height": "600"
       }
     ],
   
